@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+	margin:0;
+	padding:0;
+}
+a{
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+}
+a:hover{
+	color: #FFFF;
+
+}
+li,a{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: #B8B8B8;
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	padding:30px;
+
+}
+#Menu{
+	text-align: center;
+}
+#logo{
+	cursor:pointer;
+	float:right;
+}
+
+.nav_links li{
+	padding-top: 15px;
+	display: inline-block;
+		padding-left: 75px;
+}
+
+#info{
+	margin-left: 20%;
+	margin-bottom: 19px;
+}
+#lang p{
+ color:#a9946e;
+}
+#lang{
+	margin-bottom: 19px;
+}
+.sec1{
+	width: 100%;
+
+	    background-image:url("img/bgtry3.png");
+	    background-repeat: no-repeat;
+	    background-size: cover;
+}
+.landing{
+	margin:13%  32%;
+	height: 600px;
+}
+h1{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 1000;
+	 color:#a9946e;
+	 font-size:100px;
+}
+h2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	 font-size:45px;
+}
+.learn{
+	color: white;
+	width: 250px;
+	height: 40px;
+	border:3px solid;
+	background-color: transparent;
+	cursor: pointer;
+}
+.learn:hover{
+	background-color: white;
+	color: black;
+}
+#share{
+	margin-top: 69%;
+    margin-left: 1000px;
+    color:#a9946e;
+}
+#share:hover{
+	color:white;
+}
+.sec2{
+	width: 100%;
+	background-image:url("img/supercleanbg2.png");
+	    background-repeat: no-repeat;
+	  height: 1080px;
+
+}
+.sec2Contents{
+margin-top: 15%;
+height: 600px;
+line-height: 4.8em;
+}
+.fur:before{
+	display: inline-block;
+  margin-top: .8em; 
+  border-top: 2px solid black;
+  margin-right: 1rem;
+  margin-bottom: 0.9rem;
+  margin-left: 6%;
+  width: 10rem;
+  content: " ";
+}
+
+.sec2Contents fur{
+	margin-left: 5%;
+	padding-top: 18%;
+	width: 70%;
+
+}
+.dec::after{
+	display: inline-block;
+  margin-bottom: .3em; 
+  border-top: 2px solid black;
+  width:10rem;
+  margin-right: 45%;
+  margin-left: .7%;
+  content: " ";
+}
+.destext{
+	margin-left: 15%;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: black;
+	text-decoration: none;
+	width:450px;
+	margin-top: 35px;
+}
+.destext1{
+	margin-left: 60%;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: black;
+	text-decoration: none;
+	width:450px;
+	margin-top: 50px;
+}
+#picture1{
+ float:right;
+ padding-right: 10%;
+}
+.sec2Contents a{
+font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: black;
+}
+#Lm{
+	margin-left: 25%;
+	font-weight: 700;
+	height: 2px;
+}
+#Lm1{
+	margin-top: 25px;
+	margin-left: 65%;
+	font-weight: 700;
+	height: 5px;
+		color: black;
+
+}
+#LmAr{
+    color:#a9946e;
+}
+#score{
+	margin-left: 15%;
+}
+#score1{
+	margin-left: 25%;
+}
+
+#zero1{
+	padding-left: 15%;
+	margin-top: 15%;
+}
+.dec{
+	margin-left: 60%;
+}
+#picture2{
+	float:left;
+	padding-left: 10%;
+}
+#zero2{
+	padding-left: 39%;
+	margin-top: 10%;
+}
+#line1{
+	margin-top: 10%;
+	margin-left: 16%;
+}
+#line2{
+	margin-top: 10%;
+	margin-left: 91%;
+}
+.sec3{
+	width: 100%;
+	margin-top: 55%;
+}
+.opener{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 2500;
+	font-size: 45px;
+	color: black;
+	margin-left: 34%;
+}
+#score3{
+	margin-left: 48.5%;
+}
+.pcontainer{
+	width: 100%;
+}
+.pcontainer p{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 100;
+	font-size: 15px;
+	color: black;
+}
+.overvideos{
+	padding-left: 30%;
+}
+.overvideos1{
+	padding-top: 15px;
+	padding-left: 40%;
+}
+.videoContainer{
+	margin-top: 7%;
+	display: flex;
+	justify-content: center;
+}
+.videoContainer p{
+	padding-top: 10px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	color: black;
+}
+.video1{
+	width: 24%;
+}
+.video2{
+	width: 24%;
+}
+.video3{
+	width: 15%;
+}
+.undervids1{
+	padding-left: 22%;
+}
+.undervids2{
+	padding-left: 25%;
+}
+.undervids3{
+	padding-left:37%;
+}
+.sec4{
+	width: 100%;
+	background-image:url("img/bgvid.png");
+
+	    background-size: cover;
+
+}
+.vidholder h4{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	color:#a9946e;
+	font-size:50px;
+	margin-left: 35%;
+	margin-top: 25%;
+}
+.bf:before{
+display: inline-block;
+  margin-top: 25.5%; 
+  border-top: 2px solid white;
+  width:7rem;
+  content: " ";
+margin-left: 18%;
+position: absolute;
+
+  
+
+  
+
+}
+.vidholder{
+	margin-top: 100px;
+	height: 1000px;
+	width:80%;
+
+}
+.work{
+	position: relative;
+	padding-top: 13px;
+	padding-right: 9%;
+}
+.vidtext{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 200;
+	font-size: 15px;
+	color: white;
+	padding-top: 10px;
+	margin-left: 35%;
+
+}
+.videotextholder{
+	margin-top: 5%;
+}
+#vidscore{
+	position: absolute;
+	margin-left: 25%;
+	margin-bottom: 2px;
+}
+.work button{
+		margin-top: 5%;
+		margin-left: 35%;
+}
+.watch{
+	color: white;
+	width: 350px;
+	height: 50px;
+	border:3px solid;
+	background-color: transparent;
+	cursor: pointer;
+}
+.watch:hover{
+	background-color: white;
+	color: black;
+}
+#play{
+	padding-right: 5px;
+
+}
+.sec5 {
+	width: 100%;
+	background-image: url("img/3charm.png");
+	background-size: cover;
+}
+.sec5 a{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: black;
+}
+.about{
+	width: 50%;
+	margin-top: 100px;
+	margin-left: 36%;
+}
+.aboutinsides{
+	padding-top: 100px;
+	margin-left: 320px;
+}
+.aboutinsides h2{
+		padding-top: 38px;
+}
+.abtextholder{
+	padding-top: 4px;
+}
+.abtext{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 200;
+	font-size: 15px;
+	color: black;
+	padding-top: 10px;
+}
+#Lm3{
+	margin-top: 35px;
+	
+}
+.sec6{
+	width: 100%;
+	margin-top: 100px;
+}
+footer{
+	background-color: black;
+	background-image: url("img/footer.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+.footext{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 200;
+	font-size: 15px;
+	color: grey;
+	padding-top: 25px;
+	padding-left:19%;
+
+}
+.logs{
+	margin-left: 18%;
+	padding-top: 19px;
+	
+}
+.footerholder{
+	width: 100%;
+	display: inline-flex;
+}
+.footext1{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 200;
+	font-size: 15px;
+	color: grey;
+	padding-top: 25px;
+	padding-left:15%;
+
+}
